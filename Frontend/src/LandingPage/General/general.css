@@ -1,0 +1,42 @@
+.general-section {
+  height: 350px; 
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  background-color: #E6E6FA;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.general-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.generalcontent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.general-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.login-button-general {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button-general:hover {
+  background-color: #000;
+}

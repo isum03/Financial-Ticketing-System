@@ -1,0 +1,85 @@
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.display-ticket-container {
+  flex: 1;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.display-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.ticket-details {
+  margin-bottom: 2rem;
+}
+
+.ticket-detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ticket-label {
+  font-weight: 600;
+  color: #555;
+  min-width: 150px;
+}
+
+.ticket-value {
+  color: #333;
+  flex: 1;
+  text-align: right;
+}
+
+.section-heading {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 1rem;
+  color: #444;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.status-message {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-ticket-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .ticket-detail-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .ticket-value {
+    text-align: left;
+  }
+}

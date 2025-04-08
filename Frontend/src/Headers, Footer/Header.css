@@ -1,0 +1,46 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #eee;
+    background: linear-gradient(135deg, #d1b8e7, #4a00e0);
+  }
+  
+  .header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .header-nav ul li a {
+    font-weight: 500;
+    color: #ffffff;
+    transition: color 0.2s ease;
+  }
+  
+  .header-nav ul li a:hover {
+    color: #000;
+  }
+  
+  .header-login-button { 
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .header-login-button:hover {
+    background-color: #333;
+  }

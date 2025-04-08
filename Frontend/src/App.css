@@ -1,0 +1,63 @@
+/* src/App.css - Global Styles */
+
+/* Keep base styles and resets if not in index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Optional: Define overall layout structure for the App if needed */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure footer sticks to bottom if content is short */
+}
+
+.app-main-content {
+  flex-grow: 1; /* Allow main content to take up available space */
+  /* Add general padding/margins for sections if desired */
+   padding-top: 40px; /* Example */
+   padding-bottom: 40px; /* Example */
+}
+
+/* Example: Global container class if you use it across components */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
